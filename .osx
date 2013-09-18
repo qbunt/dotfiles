@@ -430,6 +430,9 @@ defaults write com.apple.iTunes disableGeniusSidebar -bool true
 # Disable radio stations in iTunes
 defaults write com.apple.iTunes disableRadio -bool true
 
+# Free the media keys from iTunes dastardly grasp (RCD is the remote control daemon)
+launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist
+
 # Make ⌘ + F focus the search input in iTunes
 # To use these commands in another language, browse iTunes’s package contents,
 # open `Contents/Resources/your-language.lproj/Localizable.strings`, and look
