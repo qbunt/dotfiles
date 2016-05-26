@@ -336,8 +336,12 @@ defaults write com.apple.dashboard mcx-disabled -bool true
 
 # Remove the auto-hiding Dock delay
 defaults write com.apple.dock autohide-delay -float 0
+
 # Remove the animation when hiding/showing the Dock
 defaults write com.apple.dock autohide-time-modifier -float 0
+
+# Disable the elastic scroll effect
+defaults write -g NSScrollViewRubberbanding -int 0
 
 # Enable the 2D Dock
 #defaults write com.apple.dock no-glass -bool true
