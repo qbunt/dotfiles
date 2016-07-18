@@ -352,6 +352,9 @@ defaults write com.apple.dock autohide -bool true
 # Make Dock icons of hidden applications translucent
 defaults write com.apple.dock showhidden -bool true
 
+# Disable the ridiculous cartoon cursor zoom because I know where my cursor is
+defaults write ~/Library/Preferences/.GlobalPreferences CGDisableCursorLocationMagnification -bool YES
+
 # Reset Launchpad
 #find ~/Library/Application\ Support/Dock -name "*.db" -maxdepth 1 -delete
 
