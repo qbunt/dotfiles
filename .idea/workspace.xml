@@ -2,41 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af735c2d-5905-43f1-85dc-8132e55f484d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gdbinit" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.macos" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.tmux.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE-MIT.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brew.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/init/Solarized Dark xterm-256color.terminal" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/init/Solarized Dark.itermcolors" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.brew" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vim/backups/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vim/colors/molokai.vim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vim/colors/railscat.vim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vim/swaps/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vim/syntax/json.vim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vim/undo/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/bash" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/init/Mathias.terminal" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/subl" afterPath="$PROJECT_DIR$/bin/subl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.aliases" afterPath="$PROJECT_DIR$/.aliases" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.bash_profile" afterPath="$PROJECT_DIR$/.bash_profile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.bash_prompt" afterPath="$PROJECT_DIR$/.bash_prompt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.bashrc" afterPath="$PROJECT_DIR$/.bashrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.curlrc" afterPath="$PROJECT_DIR$/.curlrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.exports" afterPath="$PROJECT_DIR$/.exports" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.functions" afterPath="$PROJECT_DIR$/.functions" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitattributes" afterPath="$PROJECT_DIR$/.gitattributes" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitconfig" afterPath="$PROJECT_DIR$/.gitconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gvimrc" afterPath="$PROJECT_DIR$/.gvimrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.osx" afterPath="$PROJECT_DIR$/.osx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.screenrc" afterPath="$PROJECT_DIR$/.screenrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vimrc" afterPath="$PROJECT_DIR$/.vimrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap.sh" afterPath="$PROJECT_DIR$/bootstrap.sh" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.osx" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.macos" afterPath="$PROJECT_DIR$/.macos" />
     </list>
     <ignored path="dotfiles.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".functions" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.functions">
+      <file leaf-file-name=".macos" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.macos">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="112" column="0" lean-forward="true" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+            <state relative-caret-position="9315">
+              <caret line="834" column="2" lean-forward="false" selection-start-line="834" selection-start-column="2" selection-end-line="834" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -73,6 +40,7 @@
       <find>buntingj@</find>
       <find>su</find>
       <find>subl</find>
+      <find>twitter</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -95,9 +63,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitconfig" />
-        <option value="$PROJECT_DIR$/.macos" />
         <option value="$PROJECT_DIR$/brew.sh" />
         <option value="$PROJECT_DIR$/.functions" />
+        <option value="$PROJECT_DIR$/.macos" />
       </list>
     </option>
   </component>
@@ -310,7 +278,7 @@
       <option name="presentableId" value="Default" />
       <updated>1366736044492</updated>
       <workItem from="1491620676052" duration="185000" />
-      <workItem from="1491763629812" duration="315000" />
+      <workItem from="1491763629812" duration="380000" />
     </task>
     <task id="LOCAL-00001" summary="mods only for me">
       <created>1366738466335</created>
@@ -323,17 +291,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="500000" />
+    <option name="totallyTimeSpent" value="565000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24930556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24930556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32902467" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -422,22 +390,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.brew" />
-    <entry file="file://$PROJECT_DIR$/.osx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2792">
-          <caret line="527" column="0" lean-forward="false" selection-start-line="527" selection-start-column="0" selection-end-line="527" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.macos">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1718">
-          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/brew.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -509,6 +461,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="112" column="0" lean-forward="true" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.osx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-590">
+          <caret line="527" column="0" lean-forward="false" selection-start-line="527" selection-start-column="0" selection-end-line="527" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.macos">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9315">
+          <caret line="834" column="2" lean-forward="false" selection-start-line="834" selection-start-column="2" selection-end-line="834" selection-end-column="2" />
           <folding />
         </state>
       </provider>
