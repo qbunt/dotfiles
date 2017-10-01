@@ -34,11 +34,14 @@ fi;
 # Install `wget` with IRI support.
 brew install wget --with-iri
 
+# Install GnuPG to enable PGP-signing commits.
+brew install gnupg
+
 # Install more recent versions of some macOS tools.
 brew install vim --with-override-system-vi
-brew install homebrew/dupes/grep
-brew install homebrew/dupes/openssh
-brew install homebrew/dupes/screen
+brew install grep
+brew install openssh
+brew install screen
 brew install homebrew/php/php56 --with-gmp
 
 # Install font tools.
@@ -50,6 +53,7 @@ brew install woff2
 # Install some CTF tools; see https://github.com/ctfs/write-ups.
 brew install binutils
 brew install binwalk
+brew install knock
 brew install nmap
 
 # Install other useful binaries.
@@ -62,34 +66,12 @@ brew install p7zip
 brew install pigz
 brew install pv
 brew install rename
-brew install rhino
-brew install speedtest_cli
+brew install rlwrap
 brew install ssh-copy-id
-brew install testssl
 brew install tree
 brew install vbindiff
 brew install webkit2png
 brew install zopfli
-
-# Install some required apps via cask
-brew cask install atom
-brew cask install jetbrains-toolbox
-brew cask install keybase
-brew cask install vlc
-brew cask install google-chrome
-
-# Install some quicklook plugins via cask
-brew cask install qlcolorcode
-brew cask install qlstephen
-brew cask install qlmarkdown
-brew cask install quicklook-json
-brew cask install qlprettypatch
-brew cask install quicklook-csv
-brew cask install betterzipql
-brew cask install qlimagesize
-brew cask install webpquicklook
-brew cask install suspicious-package
-brew cask install quicklookase qlvideo
 
 # Remove outdated versions from the cellar.
 brew cleanup
