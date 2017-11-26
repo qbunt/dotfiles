@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme": "One Dark Pro Vivid",
+    "editor.fontSize": 14,
+    "editor.fontFamily": "Fira Code, Monaco, 'Courier New', monospace",
+    "editor.scrollBeyondLastLine": false,
+    "editor.smoothScrolling": true,
+    "editor.fontLigatures": true
+}
