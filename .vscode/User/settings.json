@@ -1,0 +1,18 @@
+{
+    "atomKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    "editor.fontSize": 15,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'Fira Code', Monaco, 'Courier New', monospace",
+    "editor.scrollBeyondLastLine": false,
+    "window.zoomLevel": 0,
+    "terminal.integrated.fontFamily": "Fira Code, Monaco",
+    "terminal.integrated.fontSize": 17,
+    "workbench.colorTheme": "Ayu Dark",
+    "markdownTableFormatter.enable": true,
+    "[markdown]": {
+        "editor.quickSuggestions": false
+    },
+    "git.enableSmartCommit": true
+}
