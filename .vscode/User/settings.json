@@ -9,11 +9,18 @@
     "window.zoomLevel": 0,
     "terminal.integrated.fontFamily": "Fira Code, Monaco",
     "terminal.integrated.fontSize": 15,
-    "workbench.colorTheme": "Ayu Dark",
     "markdownTableFormatter.enable": true,
     "[markdown]": {
         "editor.quickSuggestions": false
     },
     "git.enableSmartCommit": true,
-    "workbench.iconTheme": "material-icon-theme"
+    "workbench.iconTheme": "Monokai Pro Icons",
+    "sync.gist": "19978f0a8196efb765b4594ed2024ae9",
+    "sync.quietSync": false,
+    "sync.removeExtensions": true,
+    "sync.syncExtensions": true,
+    "sync.autoDownload": false,
+    "sync.autoUpload": false,
+    "sync.forceDownload": false,
+    "workbench.colorTheme": "Ayu Mirage"
 }

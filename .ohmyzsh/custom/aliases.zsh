@@ -18,6 +18,10 @@ alias dnuke='docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q) && d
 alias rpi_ip="arp -a | grep b8:27:eb | grep -Eo '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}'"
 alias purgedns="sudo killall -HUP mDNSResponder && sudo killall mDNSResponderHelper && sudo dscacheutil -flushcache"
 
+# the remy sharp additions https://remysharp.com/2018/08/23/cli-improved
+alias cat='bat'
+alias ping='prettyping --nolegend'
+
 # Fix carriage line issues before nuking git
 alias fixlines="find ./ -type f -exec perl -pi -e 's/\r\n|\n|\r/\n/g' {} \;"
 alias gs='git status '
