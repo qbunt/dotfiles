@@ -21,6 +21,9 @@ alias purgedns="sudo killall -HUP mDNSResponder && sudo killall mDNSResponderHel
 # the remy sharp additions https://remysharp.com/2018/08/23/cli-improved
 alias cat='bat'
 alias ping='prettyping --nolegend'
+alias preview="fzf --preview 'bat --color \"always\" {}'"
+# add support for ctrl+o to open selected file in VS Code
+export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'"
 
 # Fix carriage line issues before nuking git
 alias fixlines="find ./ -type f -exec perl -pi -e 's/\r\n|\n|\r/\n/g' {} \;"
