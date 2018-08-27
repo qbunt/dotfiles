@@ -44,7 +44,7 @@ export PATH="/usr/local/sbin:$PATH"
 export PATH=~/.local/bin:$PATH
 
 # zsh syntax highlighting
-source $HOME/git/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # BEGIN SNIPPET: Magento Cloud CLI configuration
 HOME=${HOME:-'/Users/envoy'}
