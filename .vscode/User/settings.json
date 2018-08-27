@@ -8,11 +8,12 @@
     "editor.scrollBeyondLastLine": false,
     "window.zoomLevel": 0,
     "terminal.integrated.fontFamily": "Fira Code, Monaco",
-    "terminal.integrated.fontSize": 17,
+    "terminal.integrated.fontSize": 15,
     "workbench.colorTheme": "Ayu Dark",
     "markdownTableFormatter.enable": true,
     "[markdown]": {
         "editor.quickSuggestions": false
     },
-    "git.enableSmartCommit": true
+    "git.enableSmartCommit": true,
+    "workbench.iconTheme": "material-icon-theme"
 }
