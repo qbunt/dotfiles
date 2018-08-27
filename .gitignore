@@ -61,4 +61,5 @@ Thumbs.db
 .idea/**/sqlDataSources.xml
 .idea/**/dynamic.xml
 .idea/**/uiDesigner.xml
-.idea/**/dbnavigator.xml
+.idea/**/dbnavigator.xml.vscode/User/syncLocalSettings.json
+.vscode/User/syncLocalSettings.json
