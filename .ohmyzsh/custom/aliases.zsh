@@ -24,6 +24,8 @@ alias ping='prettyping --nolegend'
 alias preview="fzf --preview 'bat --color \"always\" {}'"
 # add support for ctrl+o to open selected file in VS Code
 export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'"
+alias top="sudo htop" # alias top and fix high sierra bug
+alias help='tldr'
 
 # Fix carriage line issues before nuking git
 alias fixlines="find ./ -type f -exec perl -pi -e 's/\r\n|\n|\r/\n/g' {} \;"

@@ -15,6 +15,10 @@
 	email = buntingj@gmail.com
 	name = Jeremy Bunting
 
+[pager]
+	diff = diff-so-fancy | less --tabs=1,5 -RFX
+	show = diff-so-fancy | less --tabs=1,5 -RFX
+
 [apply]
 	# Detect whitespace errors when applying a patch
 	whitespace = fix

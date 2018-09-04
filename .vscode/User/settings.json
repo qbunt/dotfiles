@@ -22,5 +22,7 @@
     "sync.autoDownload": false,
     "sync.autoUpload": false,
     "sync.forceDownload": false,
-    "workbench.colorTheme": "Ayu Mirage"
+    "workbench.colorTheme": "Ayu Mirage",
+    "git.confirmSync": false,
+    "git.autofetch": true
 }
