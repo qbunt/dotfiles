@@ -46,6 +46,9 @@ export PATH=~/.local/bin:$PATH
 # slack cli
 PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 
+# for mono
+export MONO_GAC_PREFIX="/usr/local"
+
 # zsh syntax highlighting
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
