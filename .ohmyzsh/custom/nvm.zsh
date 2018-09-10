@@ -1,10 +1,4 @@
-# NVM configuration and autocomplete setup
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-add-zsh-hook chpwd load-nvmrc
-load-nvmrc
-
-# place this after nvm initialization, this is the autoload hook for running nvm environments
+# place this after nvm initialization!
 autoload -U add-zsh-hook
 load-nvmrc() {
   local node_version="$(nvm version)"
@@ -23,3 +17,8 @@ load-nvmrc() {
     nvm use default
   fi
 }
+add-zsh-hook chpwd load-nvmrc
+load-nvmrc
+
+# NVM configuration and autocomplete setup
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

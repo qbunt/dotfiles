@@ -1,0 +1,3 @@
+[submodule ".ohmyzsh/custom/themes/spaceship-prompt"]
+	path = .ohmyzsh/custom/themes/spaceship-prompt
+	url = https://qbunt@github.com/denysdovhan/spaceship-prompt.git

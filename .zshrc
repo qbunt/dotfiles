@@ -4,7 +4,8 @@
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
-ZSH_THEME=""
+ZSH_THEME="spaceship"
+SPACESHIP_CHAR_SYMBOL=❯ 
 
 HIST_STAMPS="mm/dd/yyyy"
 
@@ -57,4 +58,5 @@ HOME=${HOME:-'/Users/envoy'}
 export PATH="$HOME/"'.magento-cloud/bin':"$PATH"
 if [ -f "$HOME/"'.magento-cloud/shell-config.rc' ]; then . "$HOME/"'.magento-cloud/shell-config.rc'; fi # END SNIPPET
 
+# fzf for history search
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
