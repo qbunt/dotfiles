@@ -14,7 +14,6 @@
         "editor.quickSuggestions": false
     },
     "git.enableSmartCommit": true,
-    "workbench.iconTheme": "Monokai Pro Icons",
     "sync.gist": "19978f0a8196efb765b4594ed2024ae9",
     "sync.quietSync": false,
     "sync.removeExtensions": true,
@@ -22,7 +21,15 @@
     "sync.autoDownload": false,
     "sync.autoUpload": false,
     "sync.forceDownload": false,
-    "workbench.colorTheme": "Ayu Mirage",
     "git.confirmSync": false,
-    "git.autofetch": true
+    "git.autofetch": true,
+    "github.hosts": [
+        {
+            "host": "https://github.com",
+            "username": "oauth",
+            "token": "system"
+        }
+    ],
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Cobalt2"
 }
