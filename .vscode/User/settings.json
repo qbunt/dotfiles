@@ -6,7 +6,7 @@
     "editor.fontFamily": "\"FiraCode-Retina\", Monaco, 'Courier New', monospace",
     "editor.scrollBeyondLastLine": false,
     "window.zoomLevel": 0,
-    "terminal.integrated.fontFamily": "Fira Code, Monaco",
+    "terminal.integrated.fontFamily": "\"FiraCode-Retina\", Monaco",
     "terminal.integrated.fontSize": 15,
     "markdownTableFormatter.enable": true,
     "[markdown]": {
