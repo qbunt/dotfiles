@@ -3,8 +3,7 @@
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.formatOnPaste": true,
     "editor.fontSize": 15,
-    "editor.fontLigatures": true,
-    "editor.fontFamily": "'Fira Code', Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "\"FiraCode-Retina\", Monaco, 'Courier New', monospace",
     "editor.scrollBeyondLastLine": false,
     "window.zoomLevel": 0,
     "terminal.integrated.fontFamily": "Fira Code, Monaco",
@@ -23,13 +22,10 @@
     "sync.forceDownload": false,
     "git.confirmSync": false,
     "git.autofetch": true,
-    "github.hosts": [
-        {
-            "host": "https://github.com",
-            "username": "oauth",
-            "token": "system"
-        }
-    ],
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Cobalt2"
+    "workbench.colorTheme": "Noctis",
+    "debug.node.autoAttach": "on",
+    "editor.tabSize": 2,
+    "files.autoSave": "onFocusChange",
+    "editor.fontLigatures": true
 }
